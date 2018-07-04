@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
 
         //pass your parameters here
 
-        String live             = "0";
-        String vid              = "demo";
-        String cbk              = "http://test.tickets4u.co.ke/ipayAndroidLibraryCbk.php";
-        String security_key     = "demo";
-        String amount           = "100";
-        String phone_number     = "0710000000";
+        String live             = "1";
+        String vid              = "0000";
+        String cbk              = "http://smssystem.intrepidprojects.co.ke/autopaytest/callback.php";
+        String security_key     = "00003";
+        String amount           = "10";
+        String phone_number     = "0700000000";
         String email            = "example@gmail.com";
 
 

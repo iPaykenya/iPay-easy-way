@@ -53,7 +53,7 @@ public class Channel extends Fragment {
             bonga_copy_paybill, bonga_copy_account, bonga_copy_amount, bonga_dial, airtel_copy_buss_name,
             airtel_copy_amount, airtel_copy_refference, equity_menu, layout_payment_eazzy,
             eazzy_copy_buss_number, eazzy_copy_account, eazzy_copy_amount;
-    private Button confirm_payment, confirm_payment_airtel, confirm_payment_eazzy;
+
     private ImageButton mpesa, airtel, lipa_mbonga, ezzy_pay, visa;
     private ImageView back, airtel_back, ezzy_menu_back, ezzy_menu_home;
 
@@ -64,7 +64,7 @@ public class Channel extends Fragment {
 
     //parameters to pass to ipay
     private static String ilive, ioid, iinv, iamount, itel, ieml, ivid, icurr,
-            p1, p2, p3, p4, icbk, cbk_card, icst, icrl, ikey;
+            p1, p2, p3, p4, icbk, icst, icrl, ikey;
 
 
     private String sid, response_account, response_amount, generatedHex, hashed_value, data_string;
@@ -89,7 +89,7 @@ public class Channel extends Fragment {
         Bundle bundle   = getArguments();
         ilive           = bundle.getString("live");
         ivid            = bundle.getString("vid" );
-        cbk_card        = bundle.getString("cbk");
+        icbk            = bundle.getString("cbk");
         ikey            = bundle.getString("key");
         iamount         = bundle.getString("amount");
         itel            = bundle.getString("phone");
@@ -123,11 +123,6 @@ public class Channel extends Fragment {
         airtel_refference       = (TextView) view.findViewById(R.id.airtel_refference);
         eazzy_account           = (TextView) view.findViewById(R.id.eazzy_account);
         eazzy_amount            = (TextView) view.findViewById(R.id.eazzy_amount);
-
-
-        confirm_payment         = (Button) view.findViewById(R.id.confirm_payment);
-        confirm_payment_airtel  = (Button) view.findViewById(R.id.confirm_payment_airtel);
-        confirm_payment_eazzy   = (Button) view.findViewById(R.id.confirm_payment_eazzy);
 
 
         mpesa               = (ImageButton) view.findViewById(R.id.mpesa);
@@ -190,7 +185,6 @@ public class Channel extends Fragment {
             if (validate() == false) {
 
             } else {
-                icbk = cbk_card;
                 icst = "1";
                 icrl = "0";
                 p1 = ivid;
@@ -255,12 +249,12 @@ public class Channel extends Fragment {
             }
         });
 
-        confirm_payment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                confirmPayment();
-            }
-        });
+//        confirm_payment.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                confirmPayment();
+//            }
+//        });
 
         //dial/copy actions
         bonga_dial.setOnClickListener(new View.OnClickListener() {
@@ -326,14 +320,14 @@ public class Channel extends Fragment {
             }
         });
 
-        confirm_payment_airtel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                confirmPayment();
-
-            }
-        });
+//        confirm_payment_airtel.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                confirmPayment();
+//
+//            }
+//        });
 
         airtel_copy_buss_name.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -397,14 +391,14 @@ public class Channel extends Fragment {
             }
         });
 
-        confirm_payment_eazzy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                confirmPayment();
-
-            }
-        });
+//        confirm_payment_eazzy.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                confirmPayment();
+//
+//            }
+//        });
 
 
         eazzy_copy_buss_number.setOnClickListener(new View.OnClickListener() {
@@ -543,11 +537,11 @@ public class Channel extends Fragment {
                         JSONObject oprator = null;
 
                         try {
-                            oprator = new JSONObject(response);
-                            JSONObject data = oprator.getJSONObject("data");
-                            sid     = data.getString("sid");
-                            response_account = data.getString("account");
-                            response_amount  = data.getString("amount");
+                            oprator             = new JSONObject(response);
+                            JSONObject data     = oprator.getJSONObject("data");
+                            sid                 = data.getString("sid");
+                            response_account    = data.getString("account");
+                            response_amount     = data.getString("amount");
 
                             if (sid != "") {
 
@@ -662,6 +656,7 @@ public class Channel extends Fragment {
                 parameters.put("curr", icurr);
                 parameters.put("cst", icst);
                 parameters.put("cbk", icbk);
+                parameters.put("autopay", String.valueOf(1));
                 parameters.put("hash", hashed_value);
                 return parameters;
             }
@@ -835,21 +830,19 @@ public class Channel extends Fragment {
     {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity(), R.style.AppCompatAlertDialogStyle);
         String msg = "Didn't get the prompt on your phone? Kindly dial *234*1*6# to force SIM update. For SIM cards more than 2 years old a SIM swap may be necessary.";
-        builder.setMessage(msg+ " \n\n After You get your receipt from MPESA and an SMS confirmation from iPay, \nClick COMPLETE BUTTON below.");
+        builder.setMessage(msg+ " \n\nFor successful payment you will get your receipt from MPESA and an SMS confirmation from iPay.");
 
-        builder.setPositiveButton("COMPLETE", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.cancel();
-
-                confirmPayment();
-            }
-        });
-        builder.setNegativeButton("RETRY", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("RETRY", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
                 initiateStkPush();
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
             }
         });
         builder.setCancelable(false);
@@ -1074,7 +1067,7 @@ public class Channel extends Fragment {
 
             iinv = ioid;
             icurr = "KES";
-            icbk = "";
+            icbk = icbk;
             icst = "0";
             icrl = "2";
 

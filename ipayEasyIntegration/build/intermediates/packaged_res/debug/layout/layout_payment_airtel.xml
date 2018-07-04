@@ -195,18 +195,6 @@
                 android:text="@string/airtel_step9"
                 android:padding="16dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/airtel_step10"
-                android:padding="16dp"/>
-
-            <Button
-                android:id="@+id/confirm_payment_airtel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAllCaps="false"
-                android:text="Confirm Payment Done"/>
 
             <ImageView
                 android:id="@+id/airtel_back"
