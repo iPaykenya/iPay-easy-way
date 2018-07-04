@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
         //pass your parameters here
 
-        String live             = "1";
-        String vid              = "0000";
+        String live             = "0";
+        String vid              = "demo";
         String cbk              = "http://smssystem.intrepidprojects.co.ke/autopaytest/callback.php";
-        String security_key     = "00003";
+        String security_key     = "demo";
         String amount           = "10";
         String phone_number     = "0700000000";
         String email            = "example@gmail.com";
