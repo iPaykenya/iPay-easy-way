@@ -64,7 +64,7 @@ public class Channel extends Fragment {
 
     //parameters to pass to ipay
     private static String ilive, ioid, iinv, iamount, itel, ieml, ivid, icurr,
-            p1, p2, p3, p4, icbk, icst, icrl, ikey;
+            p1, p2, p3, p4, icbk, icst, icrl, ikey, currency;
 
 
     private String sid, response_account, response_amount, generatedHex, hashed_value, data_string;
@@ -94,6 +94,11 @@ public class Channel extends Fragment {
         iamount         = bundle.getString("amount");
         itel            = bundle.getString("phone");
         ieml            = bundle.getString("email");
+        p1              = bundle.getString("p1");
+        p2              = bundle.getString("p2");
+        p3              = bundle.getString("p3");
+        p4              = bundle.getString("p4");
+        currency        = bundle.getString("currency");
 
 
 
@@ -136,6 +141,17 @@ public class Channel extends Fragment {
         ezzy_menu_home      = (ImageView) view.findViewById(R.id.eazzy_back_home);
 
 
+        if (currency.toString().trim().equals("USD"))
+        {
+            mpesa.setVisibility(View.GONE);
+            airtel.setVisibility(View.GONE);
+            lipa_mbonga.setVisibility(View.GONE);
+            ezzy_pay.setVisibility(View.GONE);
+            visa.setVisibility(View.VISIBLE);
+
+        }
+
+
         //initiating methods
         mpesa();
         airtel();
@@ -162,7 +178,10 @@ public class Channel extends Fragment {
 
                 } else {
 
-                    data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + icst + icbk;
+                    data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + p1 + p2 + p3 + p4  + icst + icbk;
+
+                    //Toast.makeText(getContext(), ""+data_string, Toast.LENGTH_SHORT).show();
+                    //data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + icst + icbk;
 
                     getSeed();
 
@@ -187,7 +206,7 @@ public class Channel extends Fragment {
             } else {
                 icst = "1";
                 icrl = "0";
-                p1 = ivid;
+                icurr = currency;
 
                 data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + p1 + p2 + p3 + p4 + icbk + icst + icrl;
 
@@ -218,6 +237,7 @@ public class Channel extends Fragment {
                 data.putString("url", theUrl);
                 data.putString("oid_text", ioid);
                 data.putString("amount_text", iamount);
+                data.putString("curr", icurr);
                 nextFrag.setArguments(data);
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.main_content, nextFrag, "findThisFragment")
@@ -241,7 +261,8 @@ public class Channel extends Fragment {
             if (validate() == false) {
 
             } else {
-                data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + icst + icbk;
+
+                data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + p1 + p2 + p3 + p4  + icst + icbk;
 
                 getSeed();
             }
@@ -313,7 +334,8 @@ public class Channel extends Fragment {
                 if (validate() == false) {
 
                 } else {
-                    data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + icst + icbk;
+                    data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + p1 + p2 + p3 + p4  + icst + icbk;
+
                     getSeed();
                 }
 
@@ -384,7 +406,7 @@ public class Channel extends Fragment {
                 if (validate() == false) {
 
                 } else {
-                    data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + icst + icbk;
+                    data_string = ilive + ioid + iinv + iamount + itel + ieml + ivid + icurr + p1 + p2 + p3 + p4  + icst + icbk;
 
                     getSeed();
                 }
@@ -560,8 +582,8 @@ public class Channel extends Fragment {
                                     layout_payment_eazzy.setVisibility(View.GONE);
 
                                     bonga_account.setText("4. Enter Account Number ("+response_account+").");
-                                    bonga_amount.setText("5. Enter the EXACT Amount KSh. "+response_amount+".");
-                                    bonga_amount_confirm.setText("6. Please confirm payment of KSh. "+response_amount+" worth to iPay Ltd.");
+                                    bonga_amount.setText("5. Enter the EXACT Amount "+icurr+". "+response_amount+".");
+                                    bonga_amount_confirm.setText("6. Please confirm payment of "+icurr+". "+response_amount+" worth to iPay Ltd.");
 
                                 }
                                 else if(ScreenState == "airtel"){
@@ -573,7 +595,7 @@ public class Channel extends Fragment {
 
                                     layout_payment_eazzy.setVisibility(View.GONE);
 
-                                    airtel_amount.setText("6. Enter the EXACT amount(KSh. "+ response_amount +" ).");
+                                    airtel_amount.setText("6. Enter the EXACT amount ("+icurr+". "+ response_amount +" ).");
                                     airtel_refference.setText("8. Enter "+ response_account +" as the Reference and then send the money");
                                 }
                                 else if(ScreenState == "eazzy"){
@@ -586,7 +608,7 @@ public class Channel extends Fragment {
 
 
                                     eazzy_account.setText("4. Enter "+response_account+" as the Account Number.");
-                                    eazzy_amount.setText("5. Enter the EXACT amount (KSh. "+response_amount+" ).");
+                                    eazzy_amount.setText("5. Enter the EXACT amount ("+icurr+". "+response_amount+" ).");
                                 }
 
                             }
@@ -654,6 +676,10 @@ public class Channel extends Fragment {
                 parameters.put("eml", ieml);
                 parameters.put("vid", ivid);
                 parameters.put("curr", icurr);
+                parameters.put("p1", p1);
+                parameters.put("p2", p2);
+                parameters.put("p3", p3);
+                parameters.put("p4", p4);
                 parameters.put("cst", icst);
                 parameters.put("cbk", icbk);
                 parameters.put("autopay", String.valueOf(1));
@@ -1035,25 +1061,26 @@ public class Channel extends Fragment {
     private boolean validate()
     {
         if (iamount.toString().trim().equals("") ||
-                iamount.toString().trim().equals("0")) {
+                Integer.parseInt(iamount.toString().trim()) <= 0) {
             Toast.makeText(getActivity(), "invalid amount", Toast.LENGTH_SHORT).show();
 
             return false;
 
-        } else if (itel.toString().trim().length() != 10) {
-
-            Toast.makeText(getActivity(), "invalid phone number", Toast.LENGTH_SHORT).show();
-
-            return false;
-
         } else if (itel.toString().trim().equals("") ||
+                itel.toString().trim().length() != 10 ||
                 !itel.toString().trim().substring(0, 2).equals("07")) {
 
             Toast.makeText(getActivity(), "invalid phone number", Toast.LENGTH_SHORT).show();
 
             return false;
 
-        } else if (ieml.toString().trim().equals("") ||
+        } else if (!currency.toString().trim().equals("KES") &&
+                !currency.toString().trim().equals("USD")) {
+            Toast.makeText(getActivity(), "invalid currency", Toast.LENGTH_SHORT).show();
+
+            return false;
+        }
+        else if (ieml.toString().trim().equals("") ||
                 !ieml.toString().trim().contains("@") ||
                 !ieml.toString().trim().contains(".")){
 
@@ -1068,7 +1095,7 @@ public class Channel extends Fragment {
             iinv = ioid;
             icurr = "KES";
             icbk = icbk;
-            icst = "0";
+            icst = "1";
             icrl = "2";
 
             return true;

@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         String cbk              = "http://smssystem.intrepidprojects.co.ke/autopaytest/callback.php";
         String security_key     = "demo";
         String amount           = "10";
+        String p1               = "value1";
+        String p2               = "value2";
+        String p3               = "value3";
+        String p4               = "value4";
+        String curr             = "KES"; //or USD
         String phone_number     = "0700000000";
         String email            = "example@gmail.com";
 
@@ -34,12 +39,16 @@ public class MainActivity extends AppCompatActivity {
         data.putString("cbk", cbk);
         data.putString("key", security_key);
         data.putString("amount", amount);
+        data.putString("p1", p1);
+        data.putString("p2", p2);
+        data.putString("p3", p3);
+        data.putString("p4", p4);
+        data.putString("currency", curr);
         data.putString("phone", phone_number);
         data.putString("email", email);
         fragment1.setArguments(data);
         fragmentTransaction.add(R.id.layouta, fragment1, "fragment");
         fragmentTransaction.commit();
-
 
     }
 }

@@ -55,9 +55,10 @@ public class CardChannel extends Fragment {
         theUrl = bundle.getString("url");
         String oid_text = bundle.getString("oid_text");
         String amount_text = bundle.getString("amount_text");
+        String curr_text = bundle.getString("curr");
 
         oid.setText("Order ID: "+oid_text);
-        total_amount.setText("Total KES "+amount_text+".00");
+        total_amount.setText("Total "+curr_text+" "+amount_text+".00");
 
         LoadPage();
 
