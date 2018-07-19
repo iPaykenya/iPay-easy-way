@@ -17,6 +17,8 @@ import android.widget.TextView;
 import android.support.v7.app.AlertDialog;
 import android.widget.Toast;
 
+import java.util.Set;
+
 
 public class CardChannel extends Fragment {
 
@@ -26,6 +28,7 @@ public class CardChannel extends Fragment {
     private ImageView back;
 
     String theUrl, current_url;
+    public static String payment_state = "0";
 
     public CardChannel() {
         // Required empty public constructor
@@ -103,13 +106,7 @@ public class CardChannel extends Fragment {
 
                 return true;
             }
-//            @Override
-//            public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error){
-//
-//                   dialog();
-//
-//
-//            }
+
 
             @SuppressWarnings("deprecation")
             @Override
@@ -134,6 +131,22 @@ public class CardChannel extends Fragment {
                 progDailog.dismiss();
                 current_url = Uri.parse(url).getHost();
                 back.setVisibility(View.VISIBLE);
+                //this checks if the transaction is processed or not ()
+                if (!current_url.toString().equals("payments.ipayafrica.com")){
+                    //get the url
+                    Uri uri = Uri.parse(url);
+                    String server = uri.getAuthority();
+                    String path = uri.getPath();
+                    String protocol = uri.getScheme();
+                    Set<String> args = uri.getQueryParameterNames();
+                    String status = uri.getQueryParameter("status");
+                    payment_state = status;
+                    Toast.makeText(getActivity(), ""+payment_state, Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    payment_state = "0";
+                }
             }
 
         });

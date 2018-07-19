@@ -1,10 +1,14 @@
 package com.libs.ipay.library;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.libs.ipay.ipayLibrary.CardChannel;
 import com.libs.ipay.ipayLibrary.Channel;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -61,6 +65,14 @@ public class MainActivity extends AppCompatActivity {
         fragment1.setArguments(data);
         fragmentTransaction.add(R.id.layouta, fragment1, "fragment");
         fragmentTransaction.commit();
+
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        // put your code here...
+        Toast.makeText(this, ""+ CardChannel.payment_state, Toast.LENGTH_SHORT).show();
 
     }
 }
