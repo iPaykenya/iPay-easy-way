@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main_content"
     tools:context=".Channel">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/back_card"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:id="@+id/my_back"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+    </android.support.v7.widget.CardView>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -105,14 +120,6 @@
             android:padding="20dp"
             android:src="@drawable/equitel100" />
 
-        <ImageView
-            android:id="@+id/ezzy_menu_back"
-            android:padding="10dp"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_back"/>
-
     </LinearLayout>
 
     <LinearLayout
@@ -142,4 +149,4 @@
 
     </ScrollView>
 
-</FrameLayout>
+</RelativeLayout>

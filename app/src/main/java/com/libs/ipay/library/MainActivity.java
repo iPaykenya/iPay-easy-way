@@ -21,13 +21,20 @@ public class MainActivity extends AppCompatActivity {
         String cbk              = "http://smssystem.intrepidprojects.co.ke/autopaytest/callback.php";
         String security_key     = "demo";
         String amount           = "10";
-        String p1               = "value1";
-        String p2               = "value2";
-        String p3               = "value3";
-        String p4               = "value4";
+        String p1               = "value1test";
+        String p2               = "value2test";
+        String p3               = "value3test";
+        String p4               = "value4test";
         String curr             = "KES"; //or USD
         String phone_number     = "0700000000";
         String email            = "example@gmail.com";
+
+        //channel setting (1-sets on && 0-sets off)
+        String mpesa_status    = "1";
+        String mbonga_status   = "1";
+        String airtel_status   = "1";
+        String easy_status     = "1";
+        String visa_status     = "1";
 
 
         FragmentManager fragmentManager = getSupportFragmentManager();
@@ -46,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
         data.putString("currency", curr);
         data.putString("phone", phone_number);
         data.putString("email", email);
+        data.putString("mpesa_status", mpesa_status);
+        data.putString("mbonga_status", mbonga_status);
+        data.putString("airtel_status", airtel_status);
+        data.putString("easy_status", easy_status);
+        data.putString("visa_status", visa_status);
         fragment1.setArguments(data);
         fragmentTransaction.add(R.id.layouta, fragment1, "fragment");
         fragmentTransaction.commit();

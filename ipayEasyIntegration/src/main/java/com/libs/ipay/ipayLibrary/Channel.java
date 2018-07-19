@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,13 +50,15 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class Channel extends Fragment {
 
-    private LinearLayout layout_channel, layout_payment_mbonga, layout_payment_airtel,
+    public static LinearLayout layout_channel;
+    private LinearLayout  layout_payment_mbonga, layout_payment_airtel,
             bonga_copy_paybill, bonga_copy_account, bonga_copy_amount, bonga_dial, airtel_copy_buss_name,
             airtel_copy_amount, airtel_copy_refference, equity_menu, layout_payment_eazzy,
             eazzy_copy_buss_number, eazzy_copy_account, eazzy_copy_amount;
 
     private ImageButton mpesa, airtel, lipa_mbonga, ezzy_pay, visa;
-    private ImageView back, airtel_back, ezzy_menu_back, ezzy_menu_home;
+    private ImageView my_back;
+    private CardView back_card;
 
     private TextView title, bonga_account, bonga_amount, bonga_amount_confirm, airtel_amount, airtel_refference,
             eazzy_account, eazzy_amount;
@@ -64,7 +67,8 @@ public class Channel extends Fragment {
 
     //parameters to pass to ipay
     private static String ilive, ioid, iinv, iamount, itel, ieml, ivid, icurr,
-            p1, p2, p3, p4, icbk, icst, icrl, ikey, currency;
+            p1, p2, p3, p4, icbk, icst, icrl, ikey, currency, mpesa_status, airtel_status,
+            mbonga_status, ezzy_status, visa_status;
 
 
     private String sid, response_account, response_amount, generatedHex, hashed_value, data_string;
@@ -99,8 +103,11 @@ public class Channel extends Fragment {
         p3              = bundle.getString("p3");
         p4              = bundle.getString("p4");
         currency        = bundle.getString("currency");
-
-
+        mpesa_status    = bundle.getString("mpesa_status");
+        mbonga_status   = bundle.getString("mbonga_status");
+        airtel_status   = bundle.getString("airtel_status");
+        ezzy_status     = bundle.getString("easy_status");
+        visa_status     = bundle.getString("visa_status");
 
 
         layout_channel          = (LinearLayout) view.findViewById(R.id.layout_channel);
@@ -135,13 +142,12 @@ public class Channel extends Fragment {
         lipa_mbonga         = (ImageButton) view.findViewById(R.id.mbonga);
         ezzy_pay            = (ImageButton) view.findViewById(R.id.ezzy);
         visa                = (ImageButton) view.findViewById(R.id.visa);
-        back                = (ImageView) view.findViewById(R.id.back);
-        airtel_back         = (ImageView) view.findViewById(R.id.airtel_back);
-        ezzy_menu_back      = (ImageView) view.findViewById(R.id.ezzy_menu_back);
-        ezzy_menu_home      = (ImageView) view.findViewById(R.id.eazzy_back_home);
+        my_back             = (ImageView) view.findViewById(R.id.my_back);
+
+        back_card           = (CardView) view.findViewById(R.id.back_card);
 
 
-        if (currency.toString().trim().equals("USD"))
+        if (!currency.toString().trim().equals(null) && currency.toString().trim().equals("USD"))
         {
             mpesa.setVisibility(View.GONE);
             airtel.setVisibility(View.GONE);
@@ -151,8 +157,8 @@ public class Channel extends Fragment {
 
         }
 
-
         //initiating methods
+        controlChannels();
         mpesa();
         airtel();
         visa();
@@ -227,7 +233,7 @@ public class Channel extends Fragment {
                         "&curr=" + icurr + "&hsh=" + hashed;
 
 
-                layout_channel.setVisibility(View.VISIBLE);
+                layout_channel.setVisibility(View.GONE);
                 layout_payment_mbonga.setVisibility(View.GONE);
                 layout_payment_airtel.setVisibility(View.GONE);
                 layout_payment_eazzy.setVisibility(View.GONE);
@@ -270,12 +276,6 @@ public class Channel extends Fragment {
             }
         });
 
-//        confirm_payment.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                confirmPayment();
-//            }
-//        });
 
         //dial/copy actions
         bonga_dial.setOnClickListener(new View.OnClickListener() {
@@ -309,16 +309,6 @@ public class Channel extends Fragment {
         });
 
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                layout_channel.setVisibility(View.VISIBLE);
-                layout_payment_mbonga.setVisibility(View.GONE);
-                layout_payment_airtel.setVisibility(View.GONE);
-                layout_payment_eazzy.setVisibility(View.GONE);
-            }
-        });
-
     }
     //lipa na mbonga points payment channel code ends
 
@@ -342,14 +332,6 @@ public class Channel extends Fragment {
             }
         });
 
-//        confirm_payment_airtel.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                confirmPayment();
-//
-//            }
-//        });
 
         airtel_copy_buss_name.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -377,14 +359,14 @@ public class Channel extends Fragment {
             }
         });
 
-        airtel_back.setOnClickListener(new View.OnClickListener() {
+        my_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 layout_channel.setVisibility(View.VISIBLE);
+                back_card.setVisibility(View.GONE);
                 layout_payment_mbonga.setVisibility(View.GONE);
                 layout_payment_airtel.setVisibility(View.GONE);
-
                 layout_payment_eazzy.setVisibility(View.GONE);
             }
         });
@@ -413,14 +395,6 @@ public class Channel extends Fragment {
             }
         });
 
-//        confirm_payment_eazzy.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                confirmPayment();
-//
-//            }
-//        });
 
 
         eazzy_copy_buss_number.setOnClickListener(new View.OnClickListener() {
@@ -446,33 +420,6 @@ public class Channel extends Fragment {
                 String title   = "Account Number";
 
                 copy(response_account, title);
-            }
-        });
-
-
-
-
-        ezzy_menu_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                layout_channel.setVisibility(View.VISIBLE);
-                layout_payment_mbonga.setVisibility(View.GONE);
-                layout_payment_airtel.setVisibility(View.GONE);
-
-                layout_payment_eazzy.setVisibility(View.GONE);
-            }
-        });
-
-        ezzy_menu_home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                layout_channel.setVisibility(View.VISIBLE);
-                layout_payment_mbonga.setVisibility(View.GONE);
-                layout_payment_airtel.setVisibility(View.GONE);
-
-                layout_payment_eazzy.setVisibility(View.GONE);
-
             }
         });
 
@@ -580,6 +527,7 @@ public class Channel extends Fragment {
                                     layout_payment_airtel.setVisibility(View.GONE);
                                     layout_channel.setVisibility(View.GONE);
                                     layout_payment_eazzy.setVisibility(View.GONE);
+                                    back_card.setVisibility(View.VISIBLE);
 
                                     bonga_account.setText("4. Enter Account Number ("+response_account+").");
                                     bonga_amount.setText("5. Enter the EXACT Amount "+icurr+". "+response_amount+".");
@@ -592,8 +540,8 @@ public class Channel extends Fragment {
                                     layout_payment_mbonga.setVisibility(View.GONE);
                                     layout_payment_airtel.setVisibility(View.VISIBLE);
                                     layout_channel.setVisibility(View.GONE);
-
                                     layout_payment_eazzy.setVisibility(View.GONE);
+                                    back_card.setVisibility(View.VISIBLE);
 
                                     airtel_amount.setText("6. Enter the EXACT amount ("+icurr+". "+ response_amount +" ).");
                                     airtel_refference.setText("8. Enter "+ response_account +" as the Reference and then send the money");
@@ -605,6 +553,7 @@ public class Channel extends Fragment {
                                     layout_payment_mbonga.setVisibility(View.GONE);
                                     layout_payment_airtel.setVisibility(View.GONE);
                                     layout_channel.setVisibility(View.GONE);
+                                    back_card.setVisibility(View.VISIBLE);
 
 
                                     eazzy_account.setText("4. Enter "+response_account+" as the Account Number.");
@@ -1099,6 +1048,49 @@ public class Channel extends Fragment {
             icrl = "2";
 
             return true;
+        }
+    }
+
+    private void controlChannels()
+    {
+        if (mbonga_status.toString().trim().equals("") ||
+                mbonga_status.toString().trim().equals("1") ||
+                mbonga_status.toString().trim().equals(null)){
+            lipa_mbonga.setVisibility(View.VISIBLE);
+        }else {
+            lipa_mbonga.setVisibility(View.GONE);
+        }
+
+        if (mpesa_status.toString().trim().equals("") ||
+                mpesa_status.toString().trim().equals("1") ||
+                mpesa_status.toString().trim().equals(null)){
+            mpesa.setVisibility(View.VISIBLE);
+        }else {
+            mpesa.setVisibility(View.GONE);
+        }
+
+        if (airtel_status.toString().trim().equals("") ||
+                airtel_status.toString().trim().equals("1") ||
+                airtel_status.toString().trim().equals(null)){
+            airtel.setVisibility(View.VISIBLE);
+        }else {
+            airtel.setVisibility(View.GONE);
+        }
+
+        if (ezzy_status.toString().trim().equals("") ||
+                ezzy_status.toString().trim().equals("1") ||
+                ezzy_status.toString().trim().equals(null)){
+            ezzy_pay.setVisibility(View.VISIBLE);
+        }else {
+            ezzy_pay.setVisibility(View.GONE);
+        }
+
+        if (visa_status.toString().trim().equals("") ||
+                visa_status.toString().trim().equals("1") ||
+                visa_status.toString().trim().equals(null)){
+            visa.setVisibility(View.VISIBLE);
+        }else {
+            visa.setVisibility(View.GONE);
         }
     }
 

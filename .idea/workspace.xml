@@ -24,6 +24,34 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/libs/ipay/library/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/libs/ipay/library/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/constraint/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/design/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/transition/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/transition/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/com/libs/ipay/ipayLibrary/R.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/com/libs/ipay/ipayLibrary/R.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/CardChannel$1.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/CardChannel$1.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/CardChannel$2.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/CardChannel$2.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/CardChannel.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/CardChannel.class" />
@@ -51,9 +79,9 @@
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$29.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$29.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$3.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$3.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$30.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$30.class" />
-      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$31.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$31.class" />
-      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$32.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$32.class" />
-      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$33.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$33.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$31.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$32.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$33.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$4.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$4.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$5.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$5.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$6.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$6.class" />
@@ -61,9 +89,23 @@
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$8.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$8.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$9.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel$9.class" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/Channel.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/R$id.class" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/classes/debug/com/libs/ipay/ipayLibrary/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/intermediate-jars/debug/classes.jar" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/fragment_card_channel.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/fragment_card_channel.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/fragment_channels.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/fragment_channels.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/layout_payment_airtel.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/layout_payment_airtel.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/layout_payment_eazzy.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/layout_payment_eazzy.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/layout_payment_mbonga.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/packaged_res/debug/layout/layout_payment_mbonga.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/ipayEasyIntegration/build/intermediates/symbols/debug/R.txt" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/CardChannel.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/CardChannel.java" />
       <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/Channel.java" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/Channel.java" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_card_channel.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_card_channel.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_airtel.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_airtel.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml" />
+      <change beforePath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml" afterPath="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,92 +136,92 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="library" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Channel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/Channel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4806">
-              <caret line="542" column="28" lean-forward="false" selection-start-line="542" selection-start-column="28" selection-end-line="542" selection-end-column="28" />
+            <state relative-caret-position="314">
+              <caret line="1087" column="55" lean-forward="false" selection-start-line="1087" selection-start-column="55" selection-end-line="1087" selection-end-column="55" />
               <folding>
-                <element signature="e#7787#9970#0" expanded="true" />
-                <element signature="e#9969#9970#0" expanded="true" />
-                <marker date="1531471617624" expanded="true" signature="29901:30042" ph="..." />
+                <element signature="e#8138#10318#0" expanded="true" />
+                <element signature="e#10317#10318#0" expanded="true" />
+                <element signature="e#13411#13831#0" expanded="true" />
+                <element signature="e#13830#13831#0" expanded="true" />
+                <marker date="1531990458517" expanded="true" signature="28635:28776" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_payment_eazzy.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3582">
-              <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_channels.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_card_channel.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_card_channel.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_payment_mbonga.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="144">
+              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_payment_airtel.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_airtel.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3528">
-              <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/libs/ipay/library/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="120">
+              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,30 +230,23 @@
       <file leaf-file-name="CardChannel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/CardChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+            <state relative-caret-position="188">
+              <caret line="55" column="62" lean-forward="false" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="fragment_channels.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -3405,7 +3440,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layouta.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/testlib/src/main/res/drawable-xxxhdpi/rounded_edittext.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/testlib/src/main/res/drawable-xxxhdpi/inner_bg.xml" />
         <option value="$PROJECT_DIR$/testlib/build.gradle" />
         <option value="$PROJECT_DIR$/testlib/src/main/res/layout/layout_payment_visa.xml" />
@@ -3427,16 +3461,18 @@
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/testlib/CardChannel.java" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_module.xml" />
-        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/Channels.java" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/build.gradle" />
-        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml" />
-        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_airtel.xml" />
-        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/CardChannel.java" />
+        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_card_channel.xml" />
+        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_airtel.xml" />
+        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml" />
+        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml" />
+        <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml" />
         <option value="$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/Channel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/libs/ipay/library/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       </list>
     </option>
   </component>
@@ -3462,7 +3498,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="library" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ipayEasyIntegration" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="library" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ipayEasyIntegration" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -3473,13 +3526,13 @@
             <path>
               <item name="library" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="library" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="library" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="library" type="1abcf292:AndroidViewProjectNode" />
@@ -3501,11 +3554,16 @@
               <item name="ipayEasyIntegration" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
+            <path>
+              <item name="library" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ipayEasyIntegration" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3533,22 +3591,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="library" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ipayEasyIntegration" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="library" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ipayEasyIntegration" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3558,7 +3600,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="device.picker.selection" value="420073e96101341b" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1531471004728" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1531991601742" />
     <property name="ToolWindowPreview.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
@@ -3898,7 +3940,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="32" width="1311" height="780" extended-state="6" />
+    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3912,18 +3954,18 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5048544" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9579288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47572815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2628662" sideWeight="0.4935275" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3580645" sideWeight="0.49722883" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2628662" sideWeight="0.49029127" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3576052" sideWeight="0.49722883" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293745" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2628662" sideWeight="0.50970876" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3949,14 +3991,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testlib/src/main/java/com/libs/ipay/testlib/TestClass.java" />
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/libs/ipay/library/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -3978,33 +4012,26 @@
     <entry file="file://$PROJECT_DIR$/testlib/src/main/res/layout/activity_mainl.xml" />
     <entry file="file://$PROJECT_DIR$/testlib/src/main/res/layout/content_mainl.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layouta.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlib/src/main/res/drawable-xxxhdpi/rounded_edittext.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testlib/src/main/res/drawable-xxxhdpi/rounded_edittext.xml" />
     <entry file="file://$PROJECT_DIR$/testlib/src/main/res/drawable/mpesa.png" />
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-26/android/content/res/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -4029,13 +4056,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testlib/src/main/res/layout/layout_payment_visa.xml" />
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/com/libs/ipay/ipayLibrary/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17334">
-          <caret line="968" column="44" lean-forward="false" selection-start-line="968" selection-start-column="44" selection-end-line="968" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/drawable-xxhdpi/rounded_edittext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4075,29 +4095,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_module.xml" />
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/drawable/copy1.png" />
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/drawable-xxhdpi/inner_bg.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/drawable-v21/ic_menu_share.xml">
@@ -4129,14 +4135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/drawable/copy.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -4146,14 +4144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4167,91 +4157,172 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3582">
-          <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_airtel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_card_channel.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="178">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/build/generated/source/r/debug/com/libs/ipay/ipayLibrary/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="914" column="35" lean-forward="false" selection-start-line="914" selection-start-column="35" selection-end-line="914" selection-end-column="35" />
+          <folding>
+            <marker date="1531988858189" expanded="true" signature="64412:65099" ph="{...}" />
+            <marker date="1531988858189" expanded="true" signature="65137:69671" ph="{...}" />
+            <marker date="1531988858189" expanded="true" signature="69709:74352" ph="{...}" />
+            <marker date="1531988858189" expanded="true" signature="74389:105730" ph="{...}" />
+            <marker date="1531988858189" expanded="true" signature="105771:158433" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_eazzy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="203" column="18" lean-forward="false" selection-start-line="203" selection-start-column="18" selection-end-line="203" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/layout_payment_mbonga.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="191" column="20" lean-forward="false" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
+          <folding>
+            <element signature="e#1225#1247#0" expanded="false" />
+            <element signature="e#1876#1898#0" expanded="false" />
+            <element signature="e#2623#2645#0" expanded="false" />
+            <element signature="e#3604#3626#0" expanded="false" />
+            <element signature="e#4558#4580#0" expanded="false" />
+            <element signature="e#5262#5284#0" expanded="false" />
+            <element signature="e#5686#5708#0" expanded="false" />
+            <element signature="e#6110#6132#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_card_channel.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-26/android/app/ProgressDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7116">
+          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/CardChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/layout/fragment_channels.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="188">
+          <caret line="55" column="62" lean-forward="false" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/java/com/libs/ipay/ipayLibrary/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4806">
-          <caret line="542" column="28" lean-forward="false" selection-start-line="542" selection-start-column="28" selection-end-line="542" selection-end-column="28" />
+        <state relative-caret-position="314">
+          <caret line="1087" column="55" lean-forward="false" selection-start-line="1087" selection-start-column="55" selection-end-line="1087" selection-end-column="55" />
           <folding>
-            <element signature="e#7787#9970#0" expanded="true" />
-            <element signature="e#9969#9970#0" expanded="true" />
-            <marker date="1531471617624" expanded="true" signature="29901:30042" ph="..." />
+            <element signature="e#8138#10318#0" expanded="true" />
+            <element signature="e#10317#10318#0" expanded="true" />
+            <element signature="e#13411#13831#0" expanded="true" />
+            <element signature="e#13830#13831#0" expanded="true" />
+            <marker date="1531990458517" expanded="true" signature="28635:28776" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/libs/ipay/library/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="120">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipayEasyIntegration/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

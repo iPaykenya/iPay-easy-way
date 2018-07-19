@@ -1,6 +1,7 @@
 package com.libs.ipay.ipayLibrary;
 
 import android.app.ProgressDialog;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.content.DialogInterface;
@@ -11,8 +12,10 @@ import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.support.v7.app.AlertDialog;
+import android.widget.Toast;
 
 
 public class CardChannel extends Fragment {
@@ -20,8 +23,9 @@ public class CardChannel extends Fragment {
     private WebView myWebView;
     private TextView oid, total_amount;
     private ProgressDialog progDailog;
+    private ImageView back;
 
-    String theUrl;
+    String theUrl, current_url;
 
     public CardChannel() {
         // Required empty public constructor
@@ -49,6 +53,7 @@ public class CardChannel extends Fragment {
         myWebView       = (WebView) view.findViewById(R.id.web_view);
         oid             = (TextView) view.findViewById(R.id.oid);
         total_amount    = (TextView) view.findViewById(R.id.total_amount);
+        back            = (ImageView) view.findViewById(R.id.back);
 
         //get url value passed from channels class (extra)
         Bundle bundle=getArguments();
@@ -62,8 +67,23 @@ public class CardChannel extends Fragment {
 
         LoadPage();
 
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!current_url.toString().equals("payments.ipayafrica.com")){
+                    getActivity().finish();
+                }
+                else
+                {
+                    getFragmentManager().popBackStackImmediate();
+                    Channel.layout_channel.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
         return view;
     }
+
 
     private void LoadPage()
     {
@@ -112,6 +132,8 @@ public class CardChannel extends Fragment {
                 view.loadUrl("javascript:document.getElementById(\"orderDetails\").setAttribute(\"style\",\"display:none;\");");
 
                 progDailog.dismiss();
+                current_url = Uri.parse(url).getHost();
+                back.setVisibility(View.VISIBLE);
             }
 
         });
@@ -119,6 +141,7 @@ public class CardChannel extends Fragment {
         myWebView.loadUrl(theUrl);
 
     }
+
 
      private void dialog()
     {
