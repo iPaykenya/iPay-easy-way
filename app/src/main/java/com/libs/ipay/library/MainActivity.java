@@ -20,18 +20,18 @@ public class MainActivity extends AppCompatActivity {
 
         //pass your parameters here
 
-        String live             = "0";
-        String vid              = "demo";
+        String live             = "1";
+        String vid              = "wwkl";
         String cbk              = "http://smssystem.intrepidprojects.co.ke/autopaytest/callback.php";
-        String security_key     = "demo";
-        String amount           = "10";
-        String p1               = "value1test";
+        String security_key     = "Wa98htr672WTc";
+        String amount           = "1";
+        String p1               = "callbackworks";
         String p2               = "value2test";
         String p3               = "value3test";
         String p4               = "value4test";
         String curr             = "KES"; //or USD
-        String phone_number     = "0700000000";
-        String email            = "example@gmail.com";
+        String phone_number     = "254705118708";
+        String email            = "kiseej@gmail.com";
 
         //channel setting (1-sets on && 0-sets off)
         String mpesa_status    = "1";

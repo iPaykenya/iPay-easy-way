@@ -1015,9 +1015,11 @@ public class Channel extends Fragment {
 
             return false;
 
-        } else if (itel.toString().trim().equals("") ||
-                itel.toString().trim().length() != 10 ||
-                !itel.toString().trim().substring(0, 2).equals("07")) {
+        } else if (itel.toString().trim().equals(""))
+//        ||
+//        itel.toString().trim().length() != 10 ||
+//                !itel.toString().trim().substring(0, 2).equals("07"))
+        {
 
             Toast.makeText(getActivity(), "invalid phone number", Toast.LENGTH_SHORT).show();
 
